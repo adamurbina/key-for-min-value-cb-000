@@ -10,9 +10,6 @@ def key_for_min_value(name_hash)
         if value < lowest[1]
             lowest[0] = key
             lowest[1] = value
-            puts lowest
         end}
     lowest[0]
 end
-
-key_for_min_value({"adam" => 1, "nata" => -1})
