@@ -13,3 +13,5 @@ def key_for_min_value(name_hash)
         end}
     lowest[0]
 end
+
+key_for_min_value({"adam" => 1, "nata" => -1})
